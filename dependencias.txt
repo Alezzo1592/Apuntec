@@ -1,0 +1,1 @@
+npm i babel-preset-react babel-preset-env css-loader html-webpac-plugin node-sass nodemon sass-loader style-loader webpack webpack-dev-middleware webpack-livereload-plugin -D
