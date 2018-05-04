@@ -1,7 +1,6 @@
 {
   "name": "react-node-enviroment",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node ./src/server.js"
@@ -11,23 +10,32 @@
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.9",
+    "css-loader": "^0.28.11",
     "html-webpack-plugin": "^2.30.1",
-    "node-sass": "^4.7.2",
-    "nodemon": "^1.15.1",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.20.2",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
     "webpack": "^3.11.0",
-    "webpack-dev-middleware": "^2.0.5",
-    "webpack-livereload-plugin": "^1.0.0"
+    "webpack-dev-middleware": "^2.0.6",
+    "webpack-livereload-plugin": "^1.2.0"
   },
   "dependencies": {
-    "express": "^4.16.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  }
+    "express": "^4.16.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alezzo1592/Apuntec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alezzo1592/Apuntec/issues"
+  },
+  "homepage": "https://github.com/Alezzo1592/Apuntec#readme",
+  "description": ""
 }
